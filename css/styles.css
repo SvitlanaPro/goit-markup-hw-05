@@ -55,8 +55,11 @@ img {
   list-style: none;
 }
 
-/* Header */
-
+/**
+  |============================
+  | Header
+  |============================
+*/
 .header {
   border-bottom: 1px solid var(--accent-color);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -187,7 +190,11 @@ img {
   transition-timing-function: var(--timing-function);
 }
 
-/* Hero */
+/**
+    |============================
+    | Hero
+    |============================
+  */
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
@@ -279,7 +286,11 @@ img {
   border-color: transparent;
 }
 
-/* Section 1 */
+/**
+    |============================
+    | Section 1
+    |============================
+  */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -335,8 +346,11 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* Section 2 */
-
+/**
+    |============================
+    | Section 2
+    |============================
+  */
 .work-examples {
   padding-bottom: 120px;
 }
@@ -366,7 +380,12 @@ img {
   margin-right: 24px;
 }
 
-/* Section 3 */
+
+/**
+    |============================
+    | Section 3
+    |============================
+  */
 
 .team-members-cards {
   padding-top: 120px;
@@ -426,8 +445,11 @@ img {
   fill: var(--light-text-color);
 }
 
-/* Section 4 */
-
+/**
+    |============================
+    | Section 4
+    |============================
+  */
 .customers-section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -466,7 +488,11 @@ img {
   fill: currentColor;
 }
 
-/* Footer */
+/**
+    |============================
+    | Footer
+    |============================
+  */
 
 .footer-wrapper {
   display: flex;
@@ -514,7 +540,11 @@ img {
   background-color: var(--green-hover-color);
 }
 
-/* Portfolio */
+/**
+    |============================
+    | Portfolio
+    |============================
+  */
 
 .cards-section {
   padding-top: 96px;
@@ -611,7 +641,12 @@ img {
   transform: translateY(0);
 }
 
-/* Modal */
+
+/**
+    |============================
+    | Modal
+    |============================
+  */
 .backdrop {
   position: fixed;
   top: 0;
@@ -642,6 +677,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   min-width: 408px;
+  min-height: 584px;
   min-height: 576px;
 
   background-color: var(--modal-background-color);
